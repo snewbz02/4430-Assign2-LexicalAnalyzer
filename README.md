@@ -1,4 +1,4 @@
-#Lexical Analyzer in C++
+# Lexical Analyzer in C++
 
 This is a simple C++ program that serves as a basic lexical analyzer. It reads a text file, tokenizes it, and identifies keywords, operators, integers, identifiers, and punctuations.
 
