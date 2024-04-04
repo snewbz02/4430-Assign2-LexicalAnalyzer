@@ -17,3 +17,10 @@ unordered_set<string> keywords =
     "const", "extern", "auto", "default", "for"
     
 };
+unordered_set<string> operators = {"+", "-", "*", "/", "%", "="};
+unordered_set<char> punctuation = 
+{
+
+    ',', ';', '(', ')', '{', '}', '#', '<', '.', '>', '"', '%'
+
+};
