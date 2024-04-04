@@ -24,3 +24,8 @@ unordered_set<char> punctuation =
     ',', ';', '(', ')', '{', '}', '#', '<', '.', '>', '"', '%'
 
 };
+
+// Function to check if a token is a keyword
+bool isKeyword(const string& token) {
+    return keywords.find(token) != keywords.end()
+}
