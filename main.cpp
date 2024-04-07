@@ -29,3 +29,8 @@ unordered_set<char> punctuation =
 bool isKeyword(const string& token) {
     return keywords.find(token) != keywords.end()
 }
+
+// Function to check if a token is an operator
+bool isOperator(const string& token) {
+    return operators.find(token) != operators.end();
+}
