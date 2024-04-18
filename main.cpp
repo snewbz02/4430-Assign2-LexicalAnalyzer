@@ -34,3 +34,8 @@ bool isKeyword(const string& token) {
 bool isOperator(const string& token) {
     return operators.find(token) != operators.end();
 }
+
+// Function to check if a character is punctuation
+bool isPunctuation(char character) {
+    return punctuation.find(character) != punctuation.end();
+}
